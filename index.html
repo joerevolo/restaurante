@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANTE</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <img src="" alt="">
+    </div>
+    <h1>Rustica</h1>
+    <div style="width: 70%;margin: auto;margin-top: 100px;">
+        <div style="width: 50%; float: left; margin: auto;">
+            <img width="100%" src="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/lomo%20saltado.jpg?alt=media&token=10642267-58ab-4b3b-b3b9-587931695767" alt="" id="img">
+        </div>
+        <div style="width: 50%; float: right;">
+            <table>
+                <caption style="text-align: center;margin-top: 30px;">CARTA</caption>
+                <tr>
+                    <td>Productos</td>
+                    <td>
+                        <select name="" id="op" onchange="mostrar();">
+                            <option value="1">Lomo saltado</option>
+                            <option value="2">Aji de pollo </option>
+                            <option value="3">Seco de carne</option>
+                            <option value="4">Ceviche</option>
+                            <option value="5">Causa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Precio</td>
+                    <td>
+                        <input type="text" name="" id="txtPre" value="30.00" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cantidad</td>
+                    <td>
+                        <input type="number" name="" id="txtCan" value="1" onchange="calcular();">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Importe a pagar</td>
+                    <td>
+                        <input type="text" name="" id="txtImp" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input class="boton" type="button" value="Pedir" onclick="calcular();"></td>
+                    <td><input class="boton" type="button" value="Cancelar" onclick="nuevo();"></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>        
+</body>
+</html>

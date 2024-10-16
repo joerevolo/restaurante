@@ -1,0 +1,15 @@
+h1,h2{
+    text-align: center;
+}
+
+table,td{
+    font-size: large; 
+    padding: 10px;
+}
+input,select,.boton{
+    font-size: large;
+    border-radius: 5px;
+}
+#txtCan,#txtImp{
+    width: 60px;
+}
