@@ -1,15 +1,47 @@
-h1,h2{
-    text-align: center;
-}
 
 table,td{
-    font-size: large; 
+    font-size: larger; 
     padding: 10px;
 }
 input,select,.boton{
-    font-size: large;
+    font-size: larger;
     border-radius: 5px;
 }
-#txtCan,#txtImp{
+#txtCan{
     width: 60px;
+}
+#txtImp,#txtPre{
+    width: 80px;
+    color: white;
+}
+.pie{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.cuerpo{
+    display: flex;
+    flex: 1;
+    width: 75%;
+    margin: 20px auto;
+}
+#barra{
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 70px;
+}
+.imagen{
+    width: 50%; float: right; margin: auto; text-align: center;
+
 }

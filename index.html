@@ -8,15 +8,17 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div>
-        <img src="" alt="">
+    <div style="text-align: center;">
+        <img width="80%" height="500px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWZsACtT0ReGNlMV5KyIkrkusUrQJU5K_SMA&s" alt="">
     </div>
-    <h1>Rustica</h1>
-    <div style="width: 70%;margin: auto;margin-top: 100px;">
-        <div style="width: 50%; float: left; margin: auto;">
+    <div style="width: 80%;margin: auto;margin-top: 100px;">
+        <!--imagen-->
+        <div class="imagen" >
+            <h1>Platos</h1>
             <img width="100%" src="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/lomo%20saltado.jpg?alt=media&token=10642267-58ab-4b3b-b3b9-587931695767" alt="" id="img">
         </div>
-        <div style="width: 50%; float: right;">
+        <!--menu-->
+        <div id="barra" class="cuerpo" style="width: 40%; float: left; height: 500px;  ">
             <table>
                 <caption style="text-align: center;margin-top: 30px;">CARTA</caption>
                 <tr>
@@ -53,9 +55,18 @@
                     <td><input class="boton" type="button" value="Pedir" onclick="calcular();"></td>
                     <td><input class="boton" type="button" value="Cancelar" onclick="nuevo();"></td>
                 </tr>
-            </table>
-            
+            </table>    
         </div>
-    </div>        
+        
+    </div>  
+    <div class="pie">
+        <div style="width: 100%;">
+            <div style="text-align: center;">
+                Autor:Joe Revolo <br>
+                Instituto CERTUS | CARRERAS TECNICAS Y EDUCACION CONTINUA 
+            </div>
+        </div>
+    </div>
+        
 </body>
 </html>
